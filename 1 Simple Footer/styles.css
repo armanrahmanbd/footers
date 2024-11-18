@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to right, #00093c, #2d0b00);
+  color: #fff;
+  padding: 30px 0px 0px;
+  border-radius: 50px 50px 0px 0px ;
+  font-size: 14px;
+  line-height:20px ;
+}
+.row{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col{
+  flex-basis: 25%;
+  padding: 5px;
+}
+.col:nth-child(2){
+  flex-basis: 15%;
+}
+.col:nth-child(3){
+  flex-basis: 10%;
+}
+.logo{
+  width: 80px;
+  height: 60px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.email-id{
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0px;
+}
+ul{
+  padding-left: 0px;
+}
+ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+form{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+form .fa-regular{
+  font-size: 18px;
+  margin-right: 10px;
+}
+form input{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  color: #ccc;
+}
+form button{
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.social-icons .fa-brands{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+.social-icons .fa-brands:hover{
+  background-color: rgba(0,0,0,0.1);
+  color: #fff;
+  transition: background-color 0.3s ease;
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+  transform-origin: center;
+  z-index: 1;
+}
+hr{
+  width: 90%;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.copyrights{
+  align-items: center;
+  
+}
+#footer-pages li {
+  display: inline-block;
+  padding: 0px 10px;
+  margin-top: 12px;
+}
